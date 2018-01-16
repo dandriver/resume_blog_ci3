@@ -42,7 +42,7 @@
                 К сожалению, не могу поделиться примерами своего кода, т.к. имею определенные обязательства перед
                 работодателем. Чтоб компенсировать этот недочет, выложу в GIT этот проект.
             </p>
-            <a href="" class="section_btn site-btn">Смотреть на GIT</a>
+            <a href="https://github.com/dandriver/resume_blog_ci3" class="section_btn site-btn">Смотреть на github</a>
         </div>
     </div>
 </section>
@@ -286,7 +286,7 @@
                     <li>Php</li>
                     <li>Jquery</li>
                 </ul>
-                <a href="http://gp-studio.ru/resume" class="project-card__link">http://gp-studio.ru/resume</a>
+                <a href="http://gp-studio.ru/resume" class="project-card__link">http://gp-studio.ru</a>
             </div>
         </div>
 

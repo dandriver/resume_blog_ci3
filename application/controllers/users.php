@@ -29,8 +29,9 @@ class Users extends CI_Controller
             }
         }
         $class_name = array(
-            'home_class'=>'', 
-            'login_class' => 'current', 
+            'main_class'=>'',
+            'home_class'=>'',
+            'login_class' => 'current',
             'register_class' => '',
             'upload_class'=>'',
             'contact_class'=>'');
@@ -81,7 +82,7 @@ class Users extends CI_Controller
             {
                 $data['error'] = validation_errors();
             }
-            else 
+            else
             {
                 $data = array(
                     'username' => $this->input->post('username'),
@@ -95,15 +96,16 @@ class Users extends CI_Controller
                 $this->session->set_userdata('user_type',$this->input->post('user_type'));
                 redirect(base_url().'index.php/blog/');
             }
-            
+
         }
         $class_name = array(
-            'home_class'=>'', 
-            'login_class' =>'', 
+            'main_class'=>'',
+            'home_class'=>'',
+            'login_class' =>'',
             'register_class' => 'current',
             'upload_class'=>'',
             'contact_class'=>'');
-        
+
         $this->load->view('header',$class_name);
         $this->load->view('v_register',$data);
         $this->load->view('footer');

@@ -49,8 +49,8 @@
             <div class="menu__wrapper d-none d-lg-block col-md-12">
                 <nav class="">
                     <ul>
-                        <li class="<?= $main_class; ?>"><a href="<?= base_url() ?>index.php/pages/main">Главная</a></li>
-                        <li><a href="<?= base_url() ?>index.php/pages/main#resume">Резюме</a></li>
+                        <li class="<?= $main_class; ?>"><a href="<?= base_url() ?>">Главная</a></li>
+                        <li><a href="<?= base_url() ?>index.php#resume">Резюме</a></li>
                         <li class="<?= $home_class; ?>"><a href="<?= base_url() ?>index.php/blog/">Блог</a></li>
                         <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
                         <?php if ($this->session->userdata('user_id')) {
